@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Apartment 520 app icon">
+  <defs>
+    <linearGradient id="ap-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6470cf"/>
+      <stop offset="60%" stop-color="#574e41"/>
+      <stop offset="100%" stop-color="#221c15"/>
+    </linearGradient>
+    <linearGradient id="ap-win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#edc24c"/>
+      <stop offset="100%" stop-color="#c75d3f"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="188" height="188" rx="44" fill="url(#ap-bg)" stroke="#221c15" stroke-width="4"/>
+  <!-- night glow -->
+  <circle cx="150" cy="52" r="22" fill="#edc24c" opacity="0.85"/>
+  <!-- building -->
+  <rect x="48" y="58" width="104" height="118" rx="8" fill="#f6f1e6" stroke="#221c15" stroke-width="4"/>
+  <!-- door -->
+  <rect x="86" y="138" width="28" height="38" rx="3" fill="#2c6e63" stroke="#221c15" stroke-width="3.5"/>
+  <circle cx="108" cy="158" r="2.6" fill="#edc24c"/>
+  <!-- windows; the lit 520 unit glows -->
+  <g stroke="#221c15" stroke-width="3">
+    <rect x="62" y="72" width="20" height="20" rx="2.5" fill="#3a3326"/>
+    <rect x="90" y="72" width="20" height="20" rx="2.5" fill="#3a3326"/>
+    <rect x="118" y="72" width="20" height="20" rx="2.5" fill="url(#ap-win)"/>
+    <rect x="62" y="102" width="20" height="20" rx="2.5" fill="url(#ap-win)"/>
+    <rect x="90" y="102" width="20" height="20" rx="2.5" fill="#3a3326"/>
+    <rect x="118" y="102" width="20" height="20" rx="2.5" fill="#3a3326"/>
+  </g>
+  <!-- room number plate -->
+  <rect x="60" y="44" width="80" height="20" rx="6" fill="#c75d3f" stroke="#221c15" stroke-width="3"/>
+  <text x="100" y="59" text-anchor="middle" font-family="'Space Mono', monospace" font-size="14" font-weight="700" fill="#fffdf7" letter-spacing="2">520</text>
+</svg>

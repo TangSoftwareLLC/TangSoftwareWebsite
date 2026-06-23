@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 540" role="img" aria-label="Apartment 520 screenshot: the choice">
+  <defs>
+    <linearGradient id="a3-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a2c3a"/>
+      <stop offset="100%" stop-color="#241620"/>
+    </linearGradient>
+  </defs>
+  <rect width="270" height="540" fill="url(#a3-bg)"/>
+  <!-- spotlight -->
+  <ellipse cx="135" cy="120" rx="120" ry="80" fill="#edc24c" opacity="0.12"/>
+  <text x="135" y="80" text-anchor="middle" font-family="'Space Mono',monospace" font-size="11" fill="#d98a86" letter-spacing="4">CHAPTER 4</text>
+  <text x="135" y="128" text-anchor="middle" font-family="'Fraunces',Georgia,serif" font-size="30" font-weight="700" fill="#fffdf7">A Choice</text>
+  <text x="135" y="170" text-anchor="middle" font-family="'Hanken Grotesk',sans-serif" font-size="14" fill="#e7d9c4">She's waiting for your answer.</text>
+  <!-- choice cards -->
+  <rect x="28" y="210" width="214" height="80" rx="14" fill="#f6f1e6" stroke="#221c15" stroke-width="3"/>
+  <text x="46" y="244" font-family="'Hanken Grotesk',sans-serif" font-size="15" font-weight="700" fill="#221c15">“Tell her the truth.”</text>
+  <text x="46" y="268" font-family="'Space Mono',monospace" font-size="10" fill="#8a8070" letter-spacing="1">→ TRUST +2</text>
+  <rect x="28" y="306" width="214" height="80" rx="14" fill="#c75d3f" stroke="#221c15" stroke-width="3"/>
+  <text x="46" y="340" font-family="'Hanken Grotesk',sans-serif" font-size="15" font-weight="700" fill="#fff">“Say nothing. Yet.”</text>
+  <text x="46" y="364" font-family="'Space Mono',monospace" font-size="10" fill="#f6dcc4" letter-spacing="1">→ MYSTERY +2</text>
+  <rect x="28" y="402" width="214" height="80" rx="14" fill="#2c6e63" stroke="#221c15" stroke-width="3"/>
+  <text x="46" y="436" font-family="'Hanken Grotesk',sans-serif" font-size="15" font-weight="700" fill="#fff">“Ask about 519.”</text>
+  <text x="46" y="460" font-family="'Space Mono',monospace" font-size="10" fill="#bfe6e0" letter-spacing="1">→ UNLOCKS A PATH</text>
+  <text x="135" y="514" text-anchor="middle" font-family="'Space Mono',monospace" font-size="10" fill="#8a8070" letter-spacing="2">YOUR STORY BRANCHES HERE</text>
+</svg>

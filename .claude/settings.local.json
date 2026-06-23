@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p css js assets)",
+      "Bash(git rev-parse *)",
+      "Bash(python3 -)",
+      "mcp__gates-mcp__scan_text",
+      "Bash(ls \"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\")",
+      "Bash(which chromium *)",
+      "Bash(which npx *)",
+      "Bash(which node *)",
+      "Bash(which wkhtmltoimage *)"
+    ]
+  }
+}

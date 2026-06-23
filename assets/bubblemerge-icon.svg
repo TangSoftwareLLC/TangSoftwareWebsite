@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="BubbleMerge app icon">
+  <defs>
+    <radialGradient id="bm-bg" cx="32%" cy="26%" r="90%">
+      <stop offset="0%" stop-color="#3aa0c9"/>
+      <stop offset="55%" stop-color="#2c6e63"/>
+      <stop offset="100%" stop-color="#1f5048"/>
+    </radialGradient>
+    <radialGradient id="bm-bub" cx="34%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#edc24c"/>
+      <stop offset="100%" stop-color="#c75d3f"/>
+    </radialGradient>
+    <radialGradient id="bm-bub2" cx="34%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#7fd1c4"/>
+      <stop offset="100%" stop-color="#2c6e63"/>
+    </radialGradient>
+  </defs>
+  <rect x="6" y="6" width="188" height="188" rx="44" fill="url(#bm-bg)" stroke="#221c15" stroke-width="4"/>
+  <!-- two bubbles merging -->
+  <circle cx="78" cy="112" r="46" fill="url(#bm-bub2)" stroke="#221c15" stroke-width="4"/>
+  <circle cx="130" cy="84" r="56" fill="url(#bm-bub)" stroke="#221c15" stroke-width="4"/>
+  <!-- specular highlights -->
+  <ellipse cx="112" cy="62" rx="16" ry="10" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="64" cy="96" rx="11" ry="7" fill="#ffffff" opacity="0.6"/>
+  <!-- merge spark -->
+  <path d="M100 96 l6 -16 4 14 15 3 -14 6 -3 15 -6 -14 -15 -3z" fill="#fffdf7" stroke="#221c15" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

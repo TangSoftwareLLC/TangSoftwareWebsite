@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Tang Software favicon">
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="#221c15"/>
+  <rect x="8" y="8" width="48" height="48" rx="11" fill="#f6f1e6"/>
+  <circle cx="47" cy="17" r="6" fill="#c75d3f"/>
+  <path d="M17 21 H41 a2 2 0 0 1 2 2 v3 a2 2 0 0 1 -2 2 H34 v15 a2 2 0 0 1 -2 2 h-3 a2 2 0 0 1 -2 -2 V28 h-7 a2 2 0 0 1 -2 -2 v-3 a2 2 0 0 1 2 -2 z" fill="#2c6e63"/>
+</svg>

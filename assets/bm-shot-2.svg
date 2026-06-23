@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 540" role="img" aria-label="BubbleMerge screenshot: combo celebration">
+  <defs>
+    <linearGradient id="s2-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c6e63"/>
+      <stop offset="100%" stop-color="#1f5048"/>
+    </linearGradient>
+    <radialGradient id="s2-burst" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#edc24c" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#edc24c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="270" height="540" fill="url(#s2-bg)"/>
+  <circle cx="135" cy="230" r="160" fill="url(#s2-burst)"/>
+  <!-- confetti -->
+  <g stroke="#221c15" stroke-width="1.5">
+    <rect x="40" y="90" width="14" height="14" rx="3" fill="#c75d3f" transform="rotate(20 47 97)"/>
+    <rect x="210" y="120" width="12" height="12" rx="3" fill="#6470cf" transform="rotate(-15 216 126)"/>
+    <rect x="60" y="320" width="12" height="12" rx="3" fill="#edc24c" transform="rotate(35 66 326)"/>
+    <rect x="200" y="300" width="14" height="14" rx="3" fill="#d98a86" transform="rotate(-25 207 307)"/>
+    <circle cx="90" cy="150" r="6" fill="#fff"/>
+    <circle cx="190" cy="220" r="7" fill="#fff"/>
+    <circle cx="70" cy="250" r="5" fill="#fff"/>
+  </g>
+  <text x="135" y="200" text-anchor="middle" font-family="'Fraunces',Georgia,serif" font-size="52" font-weight="700" fill="#fffdf7">COMBO</text>
+  <text x="135" y="270" text-anchor="middle" font-family="'Fraunces',Georgia,serif" font-size="78" font-weight="700" fill="#edc24c" stroke="#221c15" stroke-width="2">x6</text>
+  <rect x="55" y="320" width="160" height="44" rx="22" fill="#c75d3f" stroke="#fffdf7" stroke-width="3"/>
+  <text x="135" y="348" text-anchor="middle" font-family="'Hanken Grotesk',sans-serif" font-size="17" font-weight="700" fill="#fff">+2,400 PTS</text>
+  <text x="135" y="430" text-anchor="middle" font-family="'Space Mono',monospace" font-size="12" fill="#bfe6e0" letter-spacing="3">CHAIN BONUS!</text>
+  <text x="135" y="460" text-anchor="middle" font-family="'Space Mono',monospace" font-size="12" fill="#bfe6e0" letter-spacing="3">KEEP GOING →</text>
+</svg>
