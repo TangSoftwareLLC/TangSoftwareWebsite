@@ -6,7 +6,7 @@ free, automatic HTTPS.
 
 Games featured:
 
-- **BubbleMerge** — a calm merge puzzler (marked *Out now*)
+- **Bubble Merge - Classic** — a calm merge puzzler (marked *Out now*)
 - **Apartment 520** — an atmospheric narrative mystery (marked *Launching soon*, with a
   launch-notify form)
 
@@ -18,7 +18,7 @@ Games featured:
 |------|------|---------|
 | Home | `index.html` | Company homepage, branding, games preview, studio story |
 | Games | `games.html` | Overview of all games |
-| BubbleMerge | `bubblemerge.html` | Marketing page: features, screenshots, how-to-play, FAQ, download |
+| Bubble Merge - Classic | `bubblemerge.html` | Marketing page: features, screenshots, how-to-play, FAQ, download |
 | Apartment 520 | `apartment-520.html` | Marketing page: premise, features, screenshots, roadmap, notify form |
 | Support | `support.html` | Per-game help + FAQs, privacy/data help |
 | Contact | `contact.html` | Contact form (mailto) + direct contact info |
@@ -103,7 +103,7 @@ The site is static, so HTTPS is free and automatic on all of these. Pick one.
 - **Contact / support email** is `support@tangsoftware.net` throughout. To change it,
   find-and-replace that string across the `.html` files and update the `data-mailto`
   attributes on the two forms.
-- **App Store links**: the BubbleMerge "Download on the App Store" button points to a
+- **App Store links**: the Bubble Merge - Classic "Download on the App Store" button points to a
   placeholder (`https://apps.apple.com/`). Replace it with your real listing URL once the app
   is approved (search for `apps.apple.com` in `bubblemerge.html`).
 - **Domain**: canonical URLs, Open Graph URLs, and the sitemap use

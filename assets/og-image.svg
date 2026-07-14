@@ -21,7 +21,7 @@
 
   <text x="90" y="320" font-family="'Fraunces',Georgia,serif" font-size="92" font-weight="700" fill="#221c15">Small games,</text>
   <text x="90" y="420" font-family="'Fraunces',Georgia,serif" font-size="92" font-weight="700" fill="#c75d3f">big little worlds.</text>
-  <text x="90" y="500" font-family="'Hanken Grotesk',sans-serif" font-size="30" fill="#574e41">BubbleMerge · Apartment 520 · and what's next</text>
+  <text x="90" y="500" font-family="'Hanken Grotesk',sans-serif" font-size="30" fill="#574e41">Bubble Merge - Classic · Apartment 520 · and what's next</text>
 
   <!-- bubbles -->
   <circle cx="980" cy="360" r="120" fill="url(#og-b1)" stroke="#221c15" stroke-width="6"/>

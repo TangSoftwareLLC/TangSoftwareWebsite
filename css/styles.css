@@ -480,11 +480,40 @@ section { padding-block: clamp(3.2rem, 2rem + 6vw, 6rem); }
 
 .shots {
   display: flex;
-  gap: clamp(1rem, 3vw, 2rem);
+  gap: clamp(1rem, 3vw, 2.5rem);
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 .shots .phone { transform: none; }
+
+/* ---------- Tablet (iPad) mockup ---------- */
+.tablet {
+  width: clamp(300px, 82vw, 460px);
+  aspect-ratio: 4 / 3;
+  background: var(--ink);
+  border-radius: 24px;
+  padding: 14px;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  margin-inline: auto;
+}
+.tablet::before {
+  content: "";
+  position: absolute;
+  top: 50%; left: 7px; transform: translateY(-50%);
+  width: 5px; height: 5px;
+  background: #5b5b5b;
+  border-radius: 50%;
+  z-index: 3;
+}
+.tablet-screen {
+  width: 100%; height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--paper-2);
+}
+.tablet-screen svg, .tablet-screen img { width: 100%; height: 100%; object-fit: cover; }
 
 /* ---------- Steps / how to play ---------- */
 .steps { counter-reset: step; display: grid; gap: 1.1rem; }
@@ -669,6 +698,14 @@ section { padding-block: clamp(3.2rem, 2rem + 6vw, 6rem); }
 
 /* float class retained as a no-op (kept calm: no perpetual motion) */
 .float, .float--slow { animation: none; }
+
+/* Framed app icon — matches the rounded corner + dark border baked into the
+   SVG game icons (rect rx=44/188 ≈ 23%, stroke #221c15), for full-bleed PNGs. */
+.icon--framed {
+  border-radius: 22%;
+  border: 4px solid #221c15;
+  box-sizing: border-box;
+}
 
 /* utility */
 .mt-0 { margin-top: 0; }
