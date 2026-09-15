@@ -1,13 +1,4 @@
-/* =====================================================================
-   Tang Software LLC — "Quiet Editorial Studio" design system
-   One stylesheet, used by every page. Mobile-first.
-   ---------------------------------------------------------------------
-   Aesthetic: warm paper canvas, deep ink type, soft-serif display
-   (Fraunces) + humanist sans (Hanken Grotesk) + mono (Space Mono).
-   Calm and refined: hairline borders, soft diffuse shadows, generous
-   space, a single terracotta accent with teal as a quiet secondary.
-   Character comes from typography and warmth, not noise.
-   ===================================================================== */
+@import url('https://api.fontshare.com/v2/css?f[]=melodrama@300,400,500,600,700&display=swap');
 
 /* ---------- Design tokens ---------- */
 :root {
@@ -41,7 +32,7 @@
   --focus:        #356f64;
 
   /* Type */
-  --display: "Fraunces", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --display: "Melodrama", "Iowan Old Style", Georgia, "Times New Roman", serif;
   --sans: "Hanken Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --mono: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 
