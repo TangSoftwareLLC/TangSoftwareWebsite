@@ -3,6 +3,7 @@
 /* ---------- Design tokens ---------- */
 :root {
   /* Surfaces */
+  --white:        #fff;
   --paper:        #f6f1e6;  /* warm cream canvas              */
   --paper-2:      #efe7d8;  /* slightly deeper section tint   */
   --paper-3:      #e9e0ce;  /* deepest panel                  */
@@ -245,7 +246,7 @@ section { padding-block: clamp(3.2rem, 2rem + 6vw, 6rem); }
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: var(--card);
+  background-color: var(--white);
 }
 .nav {
   display: flex;
