@@ -220,7 +220,7 @@ section { padding-block: clamp(3.2rem, 2rem + 6vw, 6rem); }
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  font-family: var(--mono);
+  font-family: var(--sans);
   font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
