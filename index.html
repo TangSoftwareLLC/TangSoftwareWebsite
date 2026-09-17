@@ -24,6 +24,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 
+  <link rel="stylesheet" href="css/tokens.css" />
   <link rel="stylesheet" href="css/styles.css" />
 
   <!-- Structured data: Organization -->
@@ -82,38 +83,17 @@
 
     <!-- ============ GAMES PREVIEW ============ -->
     <section>
-      <div class="wrap">
-        <div class="grid grid--2">
-          <article class="game-card reveal">
-            <div class="game-card-art">
-              <img class="float icon--framed" src="assets/bubbleMergeClassiclogo-web.png" alt="Apartment 520 app icon" width="190" height="190" />
-            </div>
-            <div class="stack">
-              <span class="pill pill--live pill--dot">Out now</span>
-              <h3>Apartment 520</h3>
-              <p>You are about to spend one last night at your apartment before moving. Relive your time in apartment 520 by going over unpacked items and navigating through memories laid bare. What will you uncover before the night ends?</p>
-              <div class="btn-row">
-                <a class="btn" href="bubblemerge.html">iOS</a>
-                <a class="btn" href="bubblemerge.html">Android</a>
-                <a class="btn" href="bubblemerge.html">Steam</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="game-card game-card--reverse reveal">
-            <div class="game-card-art">
-              <img class="float float--slow" src="assets/apartment520-icon.svg" alt="Elliot's room app icon" width="190" height="190" />
-            </div>
-            <div class="stack">
-              <span class="pill pill--soon pill--dot">Launching soon</span>
-              <h3>Elliot's room</h3>
-              <p>A short, atmospheric mystery told one room at a time. Read the clues, make your choices, and find out what really happened in unit 520.</p>
-              <div class="btn-row">
-                <a class="btn btn--teal" href="apartment-520.html">Sneak peek</a>
-                <a class="btn btn--ghost" href="apartment-520.html#notify">Get notified</a>
-              </div>
-            </div>
-          </article>
+      <div class="wrap stack">
+        <div class="center">
+          <h2>Our games</h2>
+        </div>
+        <div class="stack">
+          <a class="game-link" href="apartment-520.html">
+            <img class="float float--slow game-hero-img" src="assets/apartment520/home-hero.png" alt="Apartment 520 game."/>
+          </a>
+          <a class="game-link" href="apartment-520.html">
+            <img class="float float--slow game-hero-img" src="assets/elliots-room/home-hero-2.png" alt="Elliot's room."/>
+          </a>
         </div>
       </div>
     </section>

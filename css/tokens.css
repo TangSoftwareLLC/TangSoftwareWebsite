@@ -1,0 +1,58 @@
+/* ---------- Design tokens ---------- */
+:root {
+  /* Surfaces */
+  --white:        #fff;
+  --paper:        #f6f1e6;  /* warm cream canvas              */
+  --paper-2:      #efe7d8;  /* slightly deeper section tint   */
+  --paper-3:      #e9e0ce;  /* deepest panel                  */
+  --card:         #fffdf7;  /* near-white card                */
+  --on-accent:    #fbf7ee;  /* warm off-white text on accent  */
+
+  /* Ink */
+  --ink:          #2a2319;  /* near-black, warm               */
+  --ink-soft:     #5d5446;  /* muted body                     */
+  --ink-faint:    #908676;  /* captions, meta                 */
+
+  /* Brand accents - one primary, one quiet secondary */
+  --clay:         #bb5e44;  /* primary terracotta, softened   */
+  --clay-deep:    #9c4a31;
+  --teal:         #356f64;  /* secondary deep teal, sparing   */
+  --teal-deep:    #275249;
+  --butter:       #d9b65a;  /* rare warm highlight, muted     */
+
+  /* Functional */
+  --line:         #2a2319;  /* ink border, used rarely        */
+  --line-soft:    #e0d6c4;  /* hairline dividers / borders    */
+  --line-mid:     #ccc0a8;  /* slightly stronger hairline     */
+  /* soft, warm-tinted diffuse shadows */
+  --shadow-sm:    0 1px 2px rgba(42,35,25,0.05), 0 2px 5px rgba(42,35,25,0.04);
+  --shadow:       0 2px 6px rgba(42,35,25,0.05), 0 10px 24px rgba(42,35,25,0.06);
+  --shadow-lg:    0 6px 16px rgba(42,35,25,0.07), 0 22px 48px rgba(42,35,25,0.08);
+  --focus:        #356f64;
+
+  /* Type */
+  --display: "Melodrama", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --sans: "Hanken Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* Layout */
+  --maxw: 1440px;
+  --gutter: clamp(1.1rem, 4vw, 2.5rem);
+  --radius: 14px;
+  --radius-lg: 22px;
+
+  /* Spacing scale */
+  --space-2xs: 0.25rem;  /* 4px */
+  --space-xs:  0.5rem;   /* 8px */
+  --space-sm:  0.75rem;  /* 12px */
+  --space-md:  1rem;     /* 16px */
+  --space-lg:  1.5rem;   /* 24px */
+  --space-xl:  2rem;     /* 32px */
+  --space-2xl: 3rem;     /* 48px */
+  --space-3xl: 4rem;     /* 64px */
+
+  /* Responsive layout spacing */
+  --space-section: clamp(3.2rem, 2rem + 6vw, 6rem);
+  --space-section-sm: clamp(2rem, 1.4rem + 3vw, 3.5rem);
+  --space-section-lg: clamp(4rem, 2.5rem + 7vw, 8rem);
+}
