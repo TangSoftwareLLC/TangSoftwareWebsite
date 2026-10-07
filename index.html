@@ -60,9 +60,17 @@
       <nav class="nav-panel" id="nav-panel" aria-label="Primary">
         <ul class="nav-menu">
           <li><a href="index.html" aria-current="page">Home</a></li>
-          <li><a href="games.html">Games</a></li>
+          <li class="nav-dropdown">
+            <button class="nav-dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">
+              Games <span aria-hidden="true">▾</span>
+            </button>
+            <ul class="nav-dropdown-menu">
+              <li><a href="apartment-520.html">Apartment 520</a></li>
+              <li><a href="elliots-room.html">Elliot's room</a></li>
+            </ul>
+          </li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a class="nav-cta" href="apartent-520.html">Play Apartment 520</a></li>
+          <li><a class="nav-cta" href="apartment-520.html">Play Apartment 520</a></li>
         </ul>
       </nav>
     </div>
@@ -90,7 +98,7 @@
           <a class="game-link" href="apartment-520.html">
             <img class="float float--slow game-hero-img" src="assets/apartment520/home-hero.png" alt="Apartment 520 game."/>
           </a>
-          <a class="game-link" href="apartment-520.html">
+          <a class="game-link" href="elliots-room.html">
             <img class="float float--slow game-hero-img" src="assets/elliots-room/home-hero-2.png" alt="Elliot's room."/>
           </a>
         </div>

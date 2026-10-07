@@ -17,10 +17,8 @@ Games featured:
 | Page | File | Purpose |
 |------|------|---------|
 | Home | `index.html` | Company homepage, branding, games preview, studio story |
-| Games | `games.html` | Overview of all games |
-| Bubble Merge - Classic | `bubblemerge.html` | Marketing page: features, screenshots, how-to-play, FAQ, download |
 | Apartment 520 | `apartment-520.html` | Marketing page: premise, features, screenshots, roadmap, notify form |
-| Support | `support.html` | Per-game help + FAQs, privacy/data help |
+| Elliot's room | `elliots-room.html` | Standalone game page for Elliot's room |
 | Contact | `contact.html` | Contact form (mailto) + direct contact info |
 | Privacy Policy | `privacy.html` | Full, plain-English privacy policy (App Store requirement) |
 | Terms of Use | `terms.html` | Full terms of use |
