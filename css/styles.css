@@ -100,7 +100,7 @@ strong { color: var(--ink); font-weight: 700; }
 .wrap { width: 100%; max-width: var(--maxw); margin-inline: auto; padding-inline: var(--gutter); }
 .wrap--narrow { max-width: 760px; }
 section { padding-block: var(--space-section); }
-.stack > * + * { margin-top: var(--space-md); }
+.stack > * + * { margin-top: var(--space-2xl); }
 .center { text-align: center; }
 .center .eyebrow { justify-content: center; }
 .center p.lede { margin-inline: auto; }
@@ -423,6 +423,15 @@ section { padding-block: var(--space-section); }
   width: 100%;
   max-width: none;
   margin-inline: auto;
+}
+
+.home-games .game-list {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.home-games .game-list > * + * {
+  margin-top: 0;
 }
 
 .home-hero .btn-row {
