@@ -394,10 +394,10 @@ section { padding-block: var(--space-section); }
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
-  min-height: clamp(640px, 100vh, 960px);
   padding-top: var(--space-section-lg);
+  padding-bottom: var(--space-section-lg);
   overflow: hidden;
-  background-color: #1b1720;
+  background-color: #dfdfdf;
 }
 .hero-grid {
   display: grid;
