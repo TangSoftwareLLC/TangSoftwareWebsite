@@ -801,8 +801,8 @@ section { padding-block: var(--space-section); }
 .site-footer {
   background: var(--paper-3);
   border-top: 1px solid var(--line-soft);
-  margin-top: var(--space-section);
 }
+
 .footer-grid {
   display: grid;
   gap: var(--space-xl);
