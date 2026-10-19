@@ -493,6 +493,27 @@ section { padding-block: var(--space-section); }
   overflow: hidden;
   background-color: #dfdfdf;
 }
+
+.elliots-room-hero {
+  background-image: url('../assets/elliots-room/elliots-room-hero.png');
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid var(--line-soft);
+  width: 100%;
+  aspect-ratio: 3840 / 1240;
+  min-height: 0;
+  height: auto;
+}
+
+@media (max-width: 320px) {
+  .elliots-room-hero {
+    background-size: 100% 100%;
+    background-position: center center;
+    aspect-ratio: 3840 / 1240;
+  }
+}
+
 .hero-grid {
   display: grid;
   gap: var(--space-section-sm);
@@ -501,7 +522,7 @@ section { padding-block: var(--space-section); }
 @media (min-width: 920px) {
   .hero-grid { grid-template-columns: 1.05fr 0.95fr; }
 }
-@media (max-width: 640px) {
+@media (max-width: 320px) {
   .hero { min-height: 70vh; }
 }
 .hero h1 { margin-bottom: var(--space-xs); }
@@ -586,7 +607,7 @@ section { padding-block: var(--space-section); }
   width: clamp(13rem, 16vw, 19rem);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 320px) {
   .play-platforms {
     flex-wrap: wrap;
     gap: 0.9rem;
@@ -622,7 +643,7 @@ section { padding-block: var(--space-section); }
   border: 0;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 320px) {
   .trailer-copy {
     flex-direction: column;
     align-items: flex-start;
