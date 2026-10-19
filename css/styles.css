@@ -203,7 +203,45 @@ section { padding-block: var(--space-section); }
 }
 .nav-left { flex: 1; justify-content: flex-start; }
 .nav-center { flex: 1; justify-content: center; }
-.nav-right { flex: 1; justify-content: flex-end; }
+.nav-right { flex: 1; justify-content: flex-end; gap: var(--space-sm); }
+.nav-socials {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.nav-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  text-decoration: none;
+  line-height: 0;
+}
+.nav-social-link img {
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+}
+.nav-mobile-socials {
+  display: none;
+}
+.nav-mobile-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.05rem;
+  height: 2.05rem;
+  text-decoration: none;
+  line-height: 0;
+}
+.nav-mobile-social-link img {
+  display: block;
+  width: 1.7rem;
+  height: 1.7rem;
+  object-fit: contain;
+}
 .brand {
   display: inline-flex;
   align-items: center;
@@ -215,7 +253,10 @@ section { padding-block: var(--space-section); }
   color: var(--ink);
   text-decoration: none;
 }
-.brand:hover { color: var(--ink); }
+.brand:hover {
+  color: var(--ink);
+  text-decoration: none;
+}
 .brand .brand-mark { width: 34px; height: 34px; flex: none; }
 .brand small {
   display: block;
@@ -454,31 +495,65 @@ section { padding-block: var(--space-section); }
   .nav-menu {
     width: 100%;
     align-items: flex-end;
+    display: grid;
+    gap: 0;
   }
   .nav-menu > li {
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    min-height: 3.25rem;
   }
   .nav-menu a,
   .nav-menu .nav-cta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     text-align: right;
     width: auto;
     margin-left: 0;
     border-bottom: 0;
+    padding: 0;
+    min-height: 3.25rem;
+  }
+  .nav-mobile-socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.85rem;
+    width: auto;
+    min-height: 3.25rem;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-mobile-social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    padding: 0;
+    border: 0;
+  }
+  .nav-mobile-social-link img {
+    width: 1.7rem;
+    height: 1.7rem;
   }
   .nav-menu .nav-cta {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0.8rem 1.15rem;
+    min-height: 3.25rem;
+    height: 3.25rem;
+    padding: 0 1.15rem;
     background: var(--clay);
     color: var(--on-accent);
     border-radius: 999px;
     border: 1px solid transparent;
     font-weight: 600;
     text-decoration: none;
-    margin-top: 0.2rem;
+    margin-top: 0;
   }
   .nav-panel {
     width: 100%;
