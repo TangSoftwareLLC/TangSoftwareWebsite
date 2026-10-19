@@ -9,17 +9,20 @@
   /* ---- Mobile nav toggle ---------------------------------------- */
   var toggle = document.querySelector(".nav-toggle");
   var panel = document.getElementById("nav-panel");
-  if (toggle && panel) {
+  var center = document.querySelector(".nav-center");
+  if (toggle && panel && center) {
     toggle.addEventListener("click", function () {
       var open = toggle.getAttribute("aria-expanded") === "true";
       toggle.setAttribute("aria-expanded", String(!open));
       panel.classList.toggle("is-open", !open);
+      center.classList.toggle("is-open", !open);
     });
     // Close the menu when a link is tapped (mobile).
     panel.addEventListener("click", function (e) {
       if (e.target.closest("a")) {
         toggle.setAttribute("aria-expanded", "false");
         panel.classList.remove("is-open");
+        center.classList.remove("is-open");
       }
     });
     // Reset state when crossing the desktop breakpoint.
@@ -27,6 +30,7 @@
     var sync = function () {
       if (mq.matches) {
         panel.classList.remove("is-open");
+        center.classList.remove("is-open");
         toggle.setAttribute("aria-expanded", "false");
       }
     };

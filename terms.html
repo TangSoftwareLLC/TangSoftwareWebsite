@@ -27,29 +27,35 @@
 
   <header class="site-header">
     <div class="wrap nav">
-      <a class="brand" href="index.html" aria-label="Tang Software LLC — home">
-        <img class="brand-mark" src="assets/logo.svg" alt="" width="34" height="34" />
-        <span>Tang Software<small>Game Studio</small></span>
-      </a>
+      <div class="nav-left">
+        <a class="brand" href="index.html" aria-label="Tang Software LLC — home">
+          <img class="brand-mark" src="assets/logo.svg" alt="" width="34" height="34" />
+          <span>Tang Software<small>Game Studio</small></span>
+        </a>
+      </div>
+      <div class="nav-center">
+        <nav class="nav-panel" id="nav-panel" aria-label="Primary">
+          <ul class="nav-menu">
+            <li class="nav-dropdown">
+              <button class="nav-dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">
+                Games <span aria-hidden="true">▾</span>
+              </button>
+              <ul class="nav-dropdown-menu">
+                <li><a href="apartment-520.html">Apartment 520</a></li>
+                <li><a href="elliots-room.html">Elliot's room</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="nav-cta" href="apartment-520.html">Play Apartment 520</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-right">
+        <a class="nav-cta" href="apartment-520.html">Play Apartment 520</a>
+      </div>
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-panel" aria-label="Toggle navigation menu">
         <span></span><span></span><span></span>
       </button>
-      <nav class="nav-panel" id="nav-panel" aria-label="Primary">
-        <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li class="nav-dropdown">
-            <button class="nav-dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">
-              Games <span aria-hidden="true">▾</span>
-            </button>
-            <ul class="nav-dropdown-menu">
-              <li><a href="apartment-520.html">Apartment 520</a></li>
-              <li><a href="elliots-room.html">Elliot's room</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a class="nav-cta" href="apartment-520.html">Play Apartment 520</a></li>
-        </ul>
-      </nav>
     </div>
   </header>
 
